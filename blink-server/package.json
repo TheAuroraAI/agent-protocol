@@ -1,0 +1,27 @@
+{
+  "name": "agent-protocol-blink-server",
+  "version": "1.0.0",
+  "description": "Solana Blink Action Server for Agent Protocol",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/actions": "^1.6.6",
+    "@solana/web3.js": "^1.98.0",
+    "bn.js": "^5.2.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.6",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

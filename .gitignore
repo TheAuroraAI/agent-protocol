@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.anchor/
+target/
+!agent-protocol/target/idl/
+!agent-protocol/target/types/
+agent-protocol/target/debug/
+agent-protocol/target/deploy/
+agent-protocol/target/release/
+agent-protocol/target/sbf-solana-solana/
+.DS_Store
+*.log
+.env
+test-ledger/
+PLAN.md
+NARRATION.md
+*.mp4
